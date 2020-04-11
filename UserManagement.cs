@@ -26,8 +26,9 @@ namespace POS_project
             ename.Text = dataGridView1.Rows[0].Cells[1].Value.ToString();
             euser.Text = dataGridView1.Rows[0].Cells[2].Value.ToString();
             epass.Text = dataGridView1.Rows[0].Cells[3].Value.ToString();
-            eworkhr.Text = dataGridView1.Rows[0].Cells[4].Value.ToString();
-            esalary.Text = dataGridView1.Rows[0].Cells[5].Value.ToString();
+            estat.Text = dataGridView1.Rows[0].Cells[4].Value.ToString();
+            eworkhr.Text = dataGridView1.Rows[0].Cells[5].Value.ToString();
+            esalary.Text = dataGridView1.Rows[0].Cells[6].Value.ToString();
         }
         public UserManagement()
         {
@@ -40,20 +41,21 @@ namespace POS_project
             ename.Text = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
             euser.Text = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
             epass.Text = dataGridView1.Rows[e.RowIndex].Cells[3].Value.ToString();
-            eworkhr.Text = dataGridView1.Rows[e.RowIndex].Cells[4].Value.ToString();
-            esalary.Text = dataGridView1.Rows[e.RowIndex].Cells[5].Value.ToString();
+            estat.Text = dataGridView1.Rows[e.RowIndex].Cells[4].Value.ToString();
+            eworkhr.Text = dataGridView1.Rows[e.RowIndex].Cells[5].Value.ToString();
+            esalary.Text = dataGridView1.Rows[e.RowIndex].Cells[6].Value.ToString();
         }
 
         private void create_Click(object sender, EventArgs e)
         {
-            Employee employ = new Employee(ename.Text, euser.Text, epass.Text, int.Parse(eworkhr.Text), double.Parse(esalary.Text));
+            Employee employ = new Employee(ename.Text, euser.Text, epass.Text, estat.Text, Double.Parse(eworkhr.Text), Double.Parse(esalary.Text));
             collection.InsertOne(employ);
             ReadAllDocuments();
         }
 
         private void update_Click(object sender, EventArgs e)
         {
-            var edit = Builders<Employee>.Update.Set("Name", ename.Text).Set("Username", euser.Text).Set("Password", epass.Text).Set("WorkHours", eworkhr.Text).Set("Salary", esalary.Text);
+            var edit = Builders<Employee>.Update.Set("Name", ename.Text).Set("Username", euser.Text).Set("Password", epass.Text).Set("status", estat.Text).Set("workhours", eworkhr.Text).Set("salary", esalary.Text);
             collection.UpdateOne(employ => employ.ID == ObjectId.Parse(eid.Text), edit);
             ReadAllDocuments();
         }

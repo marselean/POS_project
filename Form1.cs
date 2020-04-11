@@ -22,7 +22,6 @@ namespace POS_project
         public void ReadAllDocuments()
         {
             List<Employee> list = collection.AsQueryable().ToList<Employee>();
-            txtpass.Text = list;
         }
 
         public LoginForm()
@@ -39,7 +38,7 @@ namespace POS_project
 
         private void buttlogin_Click(object sender, EventArgs e)
         {
-            var filter = Builders<Employee>.Filter.Eq("username", txtuser.Text) & Builders<Employee>.Filter.Eq("password", txtpass.Text);
+            var filter = Builders<Employee>.Filter.Eq("Username", txtuser.Text) & Builders<Employee>.Filter.Eq("Password", txtpass.Text);
             var check = collection.Find(filter).FirstOrDefault();
 
             if (check != null)
@@ -52,6 +51,11 @@ namespace POS_project
             {
                 label2.Text = "Invalid Username or Password. Please Try Again";
             }
+        }
+
+        private void buttreset_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

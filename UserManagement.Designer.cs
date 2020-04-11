@@ -46,6 +46,8 @@
             this.eid = new System.Windows.Forms.TextBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.estat = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -71,7 +73,7 @@
             this.ename.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ename.Location = new System.Drawing.Point(565, 456);
             this.ename.Name = "ename";
-            this.ename.Size = new System.Drawing.Size(578, 26);
+            this.ename.Size = new System.Drawing.Size(413, 26);
             this.ename.TabIndex = 2;
             // 
             // label1
@@ -104,7 +106,7 @@
             this.euser.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.euser.Location = new System.Drawing.Point(565, 508);
             this.euser.Name = "euser";
-            this.euser.Size = new System.Drawing.Size(578, 26);
+            this.euser.Size = new System.Drawing.Size(369, 26);
             this.euser.TabIndex = 4;
             // 
             // label3
@@ -125,7 +127,7 @@
             this.epass.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.epass.Location = new System.Drawing.Point(565, 561);
             this.epass.Name = "epass";
-            this.epass.Size = new System.Drawing.Size(578, 26);
+            this.epass.Size = new System.Drawing.Size(369, 26);
             this.epass.TabIndex = 6;
             // 
             // create
@@ -170,7 +172,7 @@
             this.label5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.Control;
-            this.label5.Location = new System.Drawing.Point(449, 661);
+            this.label5.Location = new System.Drawing.Point(449, 668);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(91, 20);
             this.label5.TabIndex = 14;
@@ -180,9 +182,9 @@
             // 
             this.eworkhr.BackColor = System.Drawing.SystemColors.ControlLight;
             this.eworkhr.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.eworkhr.Location = new System.Drawing.Point(565, 658);
+            this.eworkhr.Location = new System.Drawing.Point(565, 665);
             this.eworkhr.Name = "eworkhr";
-            this.eworkhr.Size = new System.Drawing.Size(578, 26);
+            this.eworkhr.Size = new System.Drawing.Size(261, 26);
             this.eworkhr.TabIndex = 13;
             // 
             // label6
@@ -191,7 +193,7 @@
             this.label6.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.Control;
-            this.label6.Location = new System.Drawing.Point(449, 713);
+            this.label6.Location = new System.Drawing.Point(449, 720);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(56, 20);
             this.label6.TabIndex = 16;
@@ -201,9 +203,9 @@
             // 
             this.esalary.BackColor = System.Drawing.SystemColors.ControlLight;
             this.esalary.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.esalary.Location = new System.Drawing.Point(565, 710);
+            this.esalary.Location = new System.Drawing.Point(565, 717);
             this.esalary.Name = "esalary";
-            this.esalary.Size = new System.Drawing.Size(578, 26);
+            this.esalary.Size = new System.Drawing.Size(261, 26);
             this.esalary.TabIndex = 15;
             // 
             // label7
@@ -225,7 +227,7 @@
             this.eid.Location = new System.Drawing.Point(565, 405);
             this.eid.Name = "eid";
             this.eid.ReadOnly = true;
-            this.eid.Size = new System.Drawing.Size(578, 26);
+            this.eid.Size = new System.Drawing.Size(413, 26);
             this.eid.TabIndex = 17;
             // 
             // pictureBox2
@@ -248,12 +250,35 @@
             this.pictureBox1.TabIndex = 19;
             this.pictureBox1.TabStop = false;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.Control;
+            this.label4.Location = new System.Drawing.Point(449, 618);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(51, 20);
+            this.label4.TabIndex = 22;
+            this.label4.Text = "Status";
+            // 
+            // estat
+            // 
+            this.estat.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.estat.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.estat.Location = new System.Drawing.Point(565, 612);
+            this.estat.Name = "estat";
+            this.estat.Size = new System.Drawing.Size(132, 26);
+            this.estat.TabIndex = 21;
+            // 
             // UserManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(1184, 881);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.estat);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label7);
@@ -302,5 +327,7 @@
         private System.Windows.Forms.TextBox eid;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox estat;
     }
 }

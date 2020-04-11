@@ -73,6 +73,7 @@
             resources.ApplyResources(this.buttreset, "buttreset");
             this.buttreset.Name = "buttreset";
             this.buttreset.UseVisualStyleBackColor = false;
+            this.buttreset.Click += new System.EventHandler(this.buttreset_Click);
             // 
             // pictureBox1
             // 
