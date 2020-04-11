@@ -33,6 +33,7 @@ namespace POS_project
         public UserManagement()
         {
             InitializeComponent();
+            ReadAllDocuments();
         }
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)

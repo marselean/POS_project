@@ -121,7 +121,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::POS_project.Properties.Resources.VGOD_LUSCIOUS_EJUICE;
-            this.pictureBox3.Location = new System.Drawing.Point(243, 309);
+            this.pictureBox3.Location = new System.Drawing.Point(895, 387);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(319, 346);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -131,7 +131,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::POS_project.Properties.Resources.vgod_white_600;
-            this.pictureBox2.Location = new System.Drawing.Point(303, 673);
+            this.pictureBox2.Location = new System.Drawing.Point(812, 714);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(360, 155);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -151,7 +151,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::POS_project.Properties.Resources.VGOD___60_ICED_Apple_Bomb;
-            this.pictureBox4.Location = new System.Drawing.Point(625, 547);
+            this.pictureBox4.Location = new System.Drawing.Point(532, 559);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(319, 342);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -172,6 +172,7 @@
             this.Controls.Add(this.pictureBox4);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "dashboard";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "dashboard";
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

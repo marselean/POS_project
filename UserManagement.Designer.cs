@@ -298,6 +298,7 @@
             this.Controls.Add(this.ename);
             this.Controls.Add(this.dataGridView1);
             this.Name = "UserManagement";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UserManagement";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
