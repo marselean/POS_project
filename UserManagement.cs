@@ -66,5 +66,12 @@ namespace POS_project
             collection.DeleteOne(employ => employ.ID == ObjectId.Parse(eid.Text));
             ReadAllDocuments();
         }
+
+        private void back_Click(object sender, EventArgs e)
+        {
+            dashboard dash = new dashboard();
+            dash.Show();
+            this.Visible = false;           
+        }
     }
 }

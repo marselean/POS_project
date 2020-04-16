@@ -33,13 +33,13 @@
             this.txtpass = new System.Windows.Forms.TextBox();
             this.buttlogin = new System.Windows.Forms.Button();
             this.buttreset = new System.Windows.Forms.Button();
+            this.buttexit = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.buttexit = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -75,6 +75,25 @@
             this.buttreset.UseVisualStyleBackColor = false;
             this.buttreset.Click += new System.EventHandler(this.buttreset_Click);
             // 
+            // buttexit
+            // 
+            this.buttexit.BackColor = System.Drawing.Color.CornflowerBlue;
+            resources.ApplyResources(this.buttexit, "buttexit");
+            this.buttexit.Name = "buttexit";
+            this.buttexit.UseVisualStyleBackColor = false;
+            this.buttexit.Click += new System.EventHandler(this.buttexit_Click_1);
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.ForeColor = System.Drawing.Color.Red;
+            this.label2.Name = "label2";
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::POS_project.Properties.Resources._89968732_491600888182122_2233752279503077376_n;
@@ -103,30 +122,12 @@
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.TabStop = false;
             // 
-            // buttexit
-            // 
-            this.buttexit.BackColor = System.Drawing.Color.CornflowerBlue;
-            resources.ApplyResources(this.buttexit, "buttexit");
-            this.buttexit.Name = "buttexit";
-            this.buttexit.UseVisualStyleBackColor = false;
-            this.buttexit.Click += new System.EventHandler(this.buttexit_Click_1);
-            // 
-            // label1
-            // 
-            resources.ApplyResources(this.label1, "label1");
-            this.label1.Name = "label1";
-            // 
-            // label2
-            // 
-            resources.ApplyResources(this.label2, "label2");
-            this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Name = "label2";
-            // 
             // LoginForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ControlBox = false;
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.buttexit);

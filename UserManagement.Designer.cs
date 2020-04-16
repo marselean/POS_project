@@ -44,10 +44,11 @@
             this.esalary = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.eid = new System.Windows.Forms.TextBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.estat = new System.Windows.Forms.TextBox();
+            this.back = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -230,26 +231,6 @@
             this.eid.Size = new System.Drawing.Size(413, 26);
             this.eid.TabIndex = 17;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::POS_project.Properties.Resources._89881412_2307357016232791_6211096496171909120_n;
-            this.pictureBox2.Location = new System.Drawing.Point(-9, 603);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(358, 266);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 20;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::POS_project.Properties.Resources.download;
-            this.pictureBox1.Location = new System.Drawing.Point(0, -252);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(335, 1108);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 19;
-            this.pictureBox1.TabStop = false;
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -271,12 +252,48 @@
             this.estat.Size = new System.Drawing.Size(132, 26);
             this.estat.TabIndex = 21;
             // 
+            // back
+            // 
+            this.back.BackColor = System.Drawing.Color.DimGray;
+            this.back.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.back.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.back.ForeColor = System.Drawing.SystemColors.Control;
+            this.back.Location = new System.Drawing.Point(967, 12);
+            this.back.Name = "back";
+            this.back.Size = new System.Drawing.Size(188, 34);
+            this.back.TabIndex = 23;
+            this.back.Text = "Dashboard";
+            this.back.UseVisualStyleBackColor = false;
+            this.back.Click += new System.EventHandler(this.back_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::POS_project.Properties.Resources._89881412_2307357016232791_6211096496171909120_n;
+            this.pictureBox2.Location = new System.Drawing.Point(0, 592);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(335, 195);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 20;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::POS_project.Properties.Resources.download;
+            this.pictureBox1.Location = new System.Drawing.Point(0, -252);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(335, 1108);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 19;
+            this.pictureBox1.TabStop = false;
+            // 
             // UserManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(1184, 881);
+            this.ClientSize = new System.Drawing.Size(1179, 785);
+            this.ControlBox = false;
+            this.Controls.Add(this.back);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.estat);
             this.Controls.Add(this.pictureBox2);
@@ -299,7 +316,6 @@
             this.Controls.Add(this.dataGridView1);
             this.Name = "UserManagement";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "UserManagement";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -330,5 +346,6 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox estat;
+        private System.Windows.Forms.Button back;
     }
 }
