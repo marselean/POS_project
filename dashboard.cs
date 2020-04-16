@@ -23,17 +23,5 @@ namespace POS_project
             userm.Show();
             this.Visible = false;
         }
-
-        private void dashboard_Load(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void butt1_Click(object sender, EventArgs e)
-        {
-            Products pro = new Products();
-            pro.Show();
-            this.Visible = false;
-        }
     }
 }
