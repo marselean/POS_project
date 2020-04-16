@@ -63,6 +63,16 @@ namespace POS_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _89555177_241612217024893_6260035350702325760_n {
+            get {
+                object obj = ResourceManager.GetObject("89555177_241612217024893_6260035350702325760_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _89881412_2307357016232791_6211096496171909120_n {
             get {
                 object obj = ResourceManager.GetObject("89881412_2307357016232791_6211096496171909120_n", resourceCulture);
@@ -166,6 +176,16 @@ namespace POS_project.Properties {
         internal static System.Drawing.Bitmap output_onlinepngtools__5_ {
             get {
                 object obj = ResourceManager.GetObject("output-onlinepngtools (5)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap products_bg {
+            get {
+                object obj = ResourceManager.GetObject("products bg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

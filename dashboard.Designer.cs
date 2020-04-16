@@ -34,12 +34,10 @@
             this.button1 = new System.Windows.Forms.Button();
             this.butt1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -67,7 +65,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(269, 57);
             this.button3.TabIndex = 3;
-            this.button3.Text = "Sales";
+            this.button3.Text = "Sales Report";
             this.button3.UseVisualStyleBackColor = false;
             // 
             // button2
@@ -80,7 +78,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(269, 57);
             this.button2.TabIndex = 2;
-            this.button2.Text = "Inventory";
+            this.button2.Text = "Inventory Management";
             this.button2.UseVisualStyleBackColor = false;
             // 
             // button1
@@ -109,6 +107,7 @@
             this.butt1.TabIndex = 0;
             this.butt1.Text = "Products";
             this.butt1.UseVisualStyleBackColor = false;
+            this.butt1.Click += new System.EventHandler(this.butt1_Click);
             // 
             // label1
             // 
@@ -118,20 +117,10 @@
             this.label1.Size = new System.Drawing.Size(0, 13);
             this.label1.TabIndex = 2;
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::POS_project.Properties.Resources.VGOD_LUSCIOUS_EJUICE;
-            this.pictureBox3.Location = new System.Drawing.Point(895, 387);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(319, 346);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 4;
-            this.pictureBox3.TabStop = false;
-            // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::POS_project.Properties.Resources.vgod_white_600;
-            this.pictureBox2.Location = new System.Drawing.Point(812, 714);
+            this.pictureBox2.Location = new System.Drawing.Point(287, 349);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(360, 155);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -151,7 +140,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::POS_project.Properties.Resources.VGOD___60_ICED_Apple_Bomb;
-            this.pictureBox4.Location = new System.Drawing.Point(532, 559);
+            this.pictureBox4.Location = new System.Drawing.Point(848, 338);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(319, 342);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -163,19 +152,18 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(1184, 881);
+            this.ClientSize = new System.Drawing.Size(1179, 785);
+            this.ControlBox = false;
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox4);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "dashboard";
+            this.Load += new System.EventHandler(this.dashboard_Load);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -194,7 +182,6 @@
         private System.Windows.Forms.Button butt1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
     }
 }
