@@ -193,6 +193,16 @@ namespace POS_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap products_panel {
+            get {
+                object obj = ResourceManager.GetObject("products panel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Vape_cover {
             get {
                 object obj = ResourceManager.GetObject("Vape cover", resourceCulture);

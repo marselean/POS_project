@@ -35,5 +35,10 @@ namespace POS_project
             pro.Show();
             this.Visible = false;
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

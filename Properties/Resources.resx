@@ -133,20 +133,23 @@
   <data name="VGOD_-_60_ICED_Apple_Bomb" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\VGOD_-_60_ICED_Apple_Bomb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="90087942_632695984190938_1358089876133642240_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\90087942_632695984190938_1358089876133642240_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="output-onlinepngtools (5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\output-onlinepngtools (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="VGOD LUSCIOUS EJUICE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\VGOD LUSCIOUS EJUICE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="90464456_616468602244703_4951130692718166016_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\90464456_616468602244703_4951130692718166016_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="89968732_491600888182122_2233752279503077376_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\89968732_491600888182122_2233752279503077376_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Vape cover" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Vape cover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="products bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\products bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cover1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cover1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,8 +163,8 @@
   <data name="clouds 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\clouds 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="90464456_616468602244703_4951130692718166016_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\90464456_616468602244703_4951130692718166016_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="90087942_632695984190938_1358089876133642240_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\90087942_632695984190938_1358089876133642240_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cover2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cover2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,7 +172,7 @@
   <data name="89555177_241612217024893_6260035350702325760_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\89555177_241612217024893_6260035350702325760_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="products bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\products bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="products panel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\products panel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
