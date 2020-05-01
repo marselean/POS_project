@@ -24,21 +24,9 @@ namespace POS_project
             this.Visible = false;
         }
 
-        private void dashboard_Load(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e)
         {
-            
-        }
-
-        private void butt1_Click(object sender, EventArgs e)
-        {
-            Products pro = new Products();
-            pro.Show();
-            this.Visible = false;
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
+            System.Environment.Exit(0);
         }
     }
 }

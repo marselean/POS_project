@@ -49,7 +49,7 @@ namespace POS_project
             }
             else
             {
-                label2.Text = "Invalid Username or Password. Please Try Again";
+                label2.Text = "Invalid Username or Password.";
             }
         }
 

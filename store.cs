@@ -10,23 +10,11 @@ using System.Windows.Forms;
 
 namespace POS_project
 {
-    public partial class Products : Form
+    public partial class store : Form
     {
-        public Products()
+        public store()
         {
             InitializeComponent();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            panel1.Show();
-            panel2.Hide();
-
         }
     }
 }

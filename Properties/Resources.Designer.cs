@@ -63,9 +63,9 @@ namespace POS_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _89555177_241612217024893_6260035350702325760_n {
+        internal static System.Drawing.Bitmap ACCESSORIES {
             get {
-                object obj = ResourceManager.GetObject("89555177_241612217024893_6260035350702325760_n", resourceCulture);
+                object obj = ResourceManager.GetObject("ACCESSORIES", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace POS_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _89881412_2307357016232791_6211096496171909120_n {
+        internal static System.Drawing.Bitmap ACCESSORIES2 {
             get {
-                object obj = ResourceManager.GetObject("89881412_2307357016232791_6211096496171909120_n", resourceCulture);
+                object obj = ResourceManager.GetObject("ACCESSORIES2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace POS_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _89968732_491600888182122_2233752279503077376_n {
+        internal static System.Drawing.Bitmap ATOMIZERS {
             get {
-                object obj = ResourceManager.GetObject("89968732_491600888182122_2233752279503077376_n", resourceCulture);
+                object obj = ResourceManager.GetObject("ATOMIZERS", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace POS_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _90087942_632695984190938_1358089876133642240_n {
+        internal static System.Drawing.Bitmap block {
             get {
-                object obj = ResourceManager.GetObject("90087942_632695984190938_1358089876133642240_n", resourceCulture);
+                object obj = ResourceManager.GetObject("block", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,29 @@ namespace POS_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _90464456_616468602244703_4951130692718166016_n {
+        internal static System.Drawing.Bitmap cart {
             get {
-                object obj = ResourceManager.GetObject("90464456_616468602244703_4951130692718166016_n", resourceCulture);
+                object obj = ResourceManager.GetObject("cart", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cart1 {
+            get {
+                object obj = ResourceManager.GetObject("cart1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap checklist {
+            get {
+                object obj = ResourceManager.GetObject("checklist", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +163,9 @@ namespace POS_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap cover1 {
+        internal static System.Drawing.Bitmap cover2 {
             get {
-                object obj = ResourceManager.GetObject("cover1", resourceCulture);
+                object obj = ResourceManager.GetObject("cover2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +173,9 @@ namespace POS_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap cover2 {
+        internal static System.Drawing.Bitmap dashboard_panel {
             get {
-                object obj = ResourceManager.GetObject("cover2", resourceCulture);
+                object obj = ResourceManager.GetObject("dashboard panel", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +193,9 @@ namespace POS_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap output_onlinepngtools__5_ {
+        internal static System.Drawing.Bitmap EJUICE {
             get {
-                object obj = ResourceManager.GetObject("output-onlinepngtools (5)", resourceCulture);
+                object obj = ResourceManager.GetObject("EJUICE", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,9 +203,9 @@ namespace POS_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap products_bg {
+        internal static System.Drawing.Bitmap employee {
             get {
-                object obj = ResourceManager.GetObject("products bg", resourceCulture);
+                object obj = ResourceManager.GetObject("employee", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,9 +213,9 @@ namespace POS_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap products_panel {
+        internal static System.Drawing.Bitmap exit {
             get {
-                object obj = ResourceManager.GetObject("products panel", resourceCulture);
+                object obj = ResourceManager.GetObject("exit", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,9 +223,9 @@ namespace POS_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Vape_cover {
+        internal static System.Drawing.Bitmap graph {
             get {
-                object obj = ResourceManager.GetObject("Vape cover", resourceCulture);
+                object obj = ResourceManager.GetObject("graph", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -213,9 +233,9 @@ namespace POS_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Vape_Review {
+        internal static System.Drawing.Bitmap Log_logo {
             get {
-                object obj = ResourceManager.GetObject("Vape Review", resourceCulture);
+                object obj = ResourceManager.GetObject("Log logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -223,9 +243,9 @@ namespace POS_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap VGOD___60_ICED_Apple_Bomb {
+        internal static System.Drawing.Bitmap MOD {
             get {
-                object obj = ResourceManager.GetObject("VGOD_-_60_ICED_Apple_Bomb", resourceCulture);
+                object obj = ResourceManager.GetObject("MOD", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -233,9 +253,9 @@ namespace POS_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap VGOD_LUSCIOUS_EJUICE {
+        internal static System.Drawing.Bitmap official_logo {
             get {
-                object obj = ResourceManager.GetObject("VGOD LUSCIOUS EJUICE", resourceCulture);
+                object obj = ResourceManager.GetObject("official logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -243,9 +263,19 @@ namespace POS_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap vgod_white_600 {
+        internal static System.Drawing.Bitmap orig_logo {
             get {
-                object obj = ResourceManager.GetObject("vgod_white_600", resourceCulture);
+                object obj = ResourceManager.GetObject("orig logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap profile {
+            get {
+                object obj = ResourceManager.GetObject("profile", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

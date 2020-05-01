@@ -49,6 +49,7 @@
             this.back = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -133,8 +134,10 @@
             // 
             // create
             // 
-            this.create.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.create.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.create.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.create.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.create.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.create.Location = new System.Drawing.Point(441, 313);
             this.create.Name = "create";
             this.create.Size = new System.Drawing.Size(154, 40);
@@ -145,9 +148,11 @@
             // 
             // update
             // 
-            this.update.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.update.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.update.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.update.Location = new System.Drawing.Point(719, 314);
+            this.update.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.update.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.update.Location = new System.Drawing.Point(661, 315);
             this.update.Name = "update";
             this.update.Size = new System.Drawing.Size(154, 40);
             this.update.TabIndex = 11;
@@ -157,9 +162,11 @@
             // 
             // delete
             // 
-            this.delete.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.delete.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.delete.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.delete.Location = new System.Drawing.Point(1001, 313);
+            this.delete.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.delete.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.delete.Location = new System.Drawing.Point(874, 314);
             this.delete.Name = "delete";
             this.delete.Size = new System.Drawing.Size(154, 41);
             this.delete.TabIndex = 12;
@@ -254,9 +261,9 @@
             // 
             // back
             // 
-            this.back.BackColor = System.Drawing.Color.DimGray;
+            this.back.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.back.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.back.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.back.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.back.ForeColor = System.Drawing.SystemColors.Control;
             this.back.Location = new System.Drawing.Point(967, 12);
             this.back.Name = "back";
@@ -268,23 +275,30 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::POS_project.Properties.Resources._89881412_2307357016232791_6211096496171909120_n;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 592);
+            this.pictureBox2.Image = global::POS_project.Properties.Resources.orig_logo;
+            this.pictureBox2.Location = new System.Drawing.Point(25, 1);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(335, 195);
+            this.pictureBox2.Size = new System.Drawing.Size(303, 299);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 20;
+            this.pictureBox2.TabIndex = 24;
             this.pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::POS_project.Properties.Resources.download;
-            this.pictureBox1.Location = new System.Drawing.Point(0, -252);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 205);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(335, 1108);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 19;
+            this.pictureBox1.Size = new System.Drawing.Size(351, 616);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 25;
             this.pictureBox1.TabStop = false;
+            // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(0, 34);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(377, 266);
+            this.panel1.TabIndex = 26;
             // 
             // UserManagement
             // 
@@ -297,7 +311,6 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.estat);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.eid);
             this.Controls.Add(this.label6);
@@ -314,6 +327,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.ename);
             this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "UserManagement";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -347,5 +362,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox estat;
         private System.Windows.Forms.Button back;
+        private System.Windows.Forms.Panel panel1;
     }
 }
