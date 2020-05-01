@@ -1,6 +1,6 @@
 ﻿namespace POS_project
 {
-    partial class store
+    partial class vapeshop
     {
         /// <summary>
         /// Required designer variable.
@@ -41,7 +41,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.back = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -175,27 +175,28 @@
             this.button3.Text = "View Cart";
             this.button3.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // back
             // 
-            this.button4.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button4.Location = new System.Drawing.Point(1021, 710);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(145, 40);
-            this.button4.TabIndex = 15;
-            this.button4.Text = "Dashboard";
-            this.button4.UseVisualStyleBackColor = false;
+            this.back.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.back.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.back.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.back.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.back.Location = new System.Drawing.Point(1021, 710);
+            this.back.Name = "back";
+            this.back.Size = new System.Drawing.Size(145, 40);
+            this.back.TabIndex = 15;
+            this.back.Text = "Dashboard";
+            this.back.UseVisualStyleBackColor = false;
+            this.back.Click += new System.EventHandler(this.back_Click);
             // 
-            // store
+            // vapeshop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(1179, 762);
+            this.ClientSize = new System.Drawing.Size(1179, 785);
             this.ControlBox = false;
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.back);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox1);
@@ -209,7 +210,8 @@
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
-            this.Name = "store";
+            this.Name = "vapeshop";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -234,6 +236,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button back;
     }
 }

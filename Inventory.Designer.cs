@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.InventoryView = new System.Windows.Forms.DataGridView();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.create = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.addpro = new System.Windows.Forms.Button();
+            this.uppro = new System.Windows.Forms.Button();
+            this.delpro = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
@@ -46,7 +46,7 @@
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.InventoryView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -57,13 +57,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // InventoryView
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(277, 286);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(704, 397);
-            this.dataGridView1.TabIndex = 0;
+            this.InventoryView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.InventoryView.Location = new System.Drawing.Point(277, 286);
+            this.InventoryView.Name = "InventoryView";
+            this.InventoryView.Size = new System.Drawing.Size(704, 397);
+            this.InventoryView.TabIndex = 0;
             // 
             // pictureBox1
             // 
@@ -75,44 +75,44 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // create
+            // addpro
             // 
-            this.create.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.create.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.create.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.create.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.create.Location = new System.Drawing.Point(1002, 363);
-            this.create.Name = "create";
-            this.create.Size = new System.Drawing.Size(156, 60);
-            this.create.TabIndex = 11;
-            this.create.Text = "Add Products";
-            this.create.UseVisualStyleBackColor = false;
+            this.addpro.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.addpro.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.addpro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addpro.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.addpro.Location = new System.Drawing.Point(1002, 363);
+            this.addpro.Name = "addpro";
+            this.addpro.Size = new System.Drawing.Size(156, 60);
+            this.addpro.TabIndex = 11;
+            this.addpro.Text = "Add Products";
+            this.addpro.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // uppro
             // 
-            this.button2.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button2.Location = new System.Drawing.Point(1002, 530);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(156, 60);
-            this.button2.TabIndex = 12;
-            this.button2.Text = "Update Products";
-            this.button2.UseVisualStyleBackColor = false;
+            this.uppro.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.uppro.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.uppro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uppro.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.uppro.Location = new System.Drawing.Point(1002, 530);
+            this.uppro.Name = "uppro";
+            this.uppro.Size = new System.Drawing.Size(156, 60);
+            this.uppro.TabIndex = 12;
+            this.uppro.Text = "Update Products";
+            this.uppro.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // delpro
             // 
-            this.button3.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button3.Location = new System.Drawing.Point(1002, 447);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(156, 60);
-            this.button3.TabIndex = 13;
-            this.button3.Text = "Delete Products";
-            this.button3.UseVisualStyleBackColor = false;
+            this.delpro.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.delpro.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.delpro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.delpro.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.delpro.Location = new System.Drawing.Point(1002, 447);
+            this.delpro.Name = "delpro";
+            this.delpro.Size = new System.Drawing.Size(156, 60);
+            this.delpro.TabIndex = 13;
+            this.delpro.Text = "Delete Products";
+            this.delpro.UseVisualStyleBackColor = false;
             // 
             // listBox1
             // 
@@ -202,6 +202,7 @@
             this.button5.TabIndex = 4;
             this.button5.Text = "Exit                           ";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click_1);
             // 
             // button1
             // 
@@ -216,6 +217,7 @@
             this.button1.Text = "Sales Management     ";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button4
             // 
@@ -230,6 +232,7 @@
             this.button4.Text = "Buy Products             ";
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
             // button6
             // 
@@ -244,6 +247,7 @@
             this.button6.Text = "Inventory Management";
             this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click_1);
             // 
             // button7
             // 
@@ -258,6 +262,7 @@
             this.button7.Text = "User Management       ";
             this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // pictureBox7
             // 
@@ -279,14 +284,14 @@
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.create);
+            this.Controls.Add(this.delpro);
+            this.Controls.Add(this.uppro);
+            this.Controls.Add(this.addpro);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.InventoryView);
             this.Name = "Inventory";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.InventoryView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
@@ -301,11 +306,11 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView InventoryView;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button create;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button addpro;
+        private System.Windows.Forms.Button uppro;
+        private System.Windows.Forms.Button delpro;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox6;

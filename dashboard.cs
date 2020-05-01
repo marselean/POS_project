@@ -28,5 +28,19 @@ namespace POS_project
         {
             System.Environment.Exit(0);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Inventory inv = new Inventory();
+            inv.Show();
+            this.Visible = false;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            vapeshop buy = new vapeshop();
+            buy.Show();
+            this.Visible = false;
+        }
     }
 }

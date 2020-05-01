@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace POS_project
 {
-    public partial class store : Form
+    public partial class vapeshop : Form
     {
-        public store()
+        public vapeshop()
         {
             InitializeComponent();
+        }
+
+        private void back_Click(object sender, EventArgs e)
+        {
+            dashboard dash = new dashboard();
+            dash.Show();
+            this.Visible = false;
         }
     }
 }
