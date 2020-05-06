@@ -50,6 +50,9 @@ namespace POS_project
             else
             {
                 label2.Text = "Invalid Username or Password.";
+                txtuser.Clear();
+                txtpass.Clear();
+                txtuser.Focus();
             }
         }
 
